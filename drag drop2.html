@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag- Drop Envios de archivos</title>
+
+    <style>
+
+        #contenido{
+            width: 200px;
+            height: 130px;
+            border: 1px solid  rgb(153, 153, 153);
+            background-color: rgb(216, 215, 215);
+            margin: 10px;
+            position: absolute;
+            text-align: center;
+            border-radius: 3px
+        
+            
+        }
+
+        label{
+            color: rgb(255, 255, 255);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.5;
+            cursor: pointer;
+        }
+        
+        input{
+            display: none;
+        }
+        
+        .imagen {
+            border: 1px solid rgb(255, 255, 255);
+            margin: 10px 5px 0 0;   
+            height: 180px;
+        }
+       
+    </style>
+
+</head>
+
+<body>
+
+    <input type="file" id="a"  name="act[]"  multiple>
+    
+    <output id="list"></output>
+    
+    <div id="contenido">
+
+            <label for="a" id="titulo">Haz clik para <br> cargar la imagen </label><br> 
+            
+    </div>
+        <script src="./drag_drop2.js"></script>
+</body>
+</html>
