@@ -1,1 +1,0 @@
-# arrastrador-de-imagenes-
